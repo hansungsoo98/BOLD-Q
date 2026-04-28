@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Keep runtime directories, ignore generated contents
+cache/*
+!cache/.gitkeep
+
+log/*
+!log/.gitkeep
+
+quantized_layer_weights/*
+!quantized_layer_weights/.gitkeep
+
+# Archives
+*.tar.gz
+*.zip
+
+# Model / tensor artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Local environments
+.venv/
+venv/
+env/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
